@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Verficacion de RFC</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <style>
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        
+        /* Firefox */
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+        /*-----------------------------------------------------------*/
+
+        </style>
+    </head>
+    <body>
+        <main class="container">
+            <div class="titulo">
+                <h1>Verificación de RFC</h1>
+            </div>
+            <div class="card principal">
+                <label for="rfc" class="form-label tituloRFc">Ingrese RFC</label>
+                <div class="campo-texto">
+                    <input type="text" class="form-control " id="rfc" placeholder="Q4MA470929F37">
+
+                </div>
+               <div class="buttonSEnd">
+                 <input type="submit" id="button" value="Enviar" class="enviar">
+               </div>
+                
+            </div>
+
+
+
+
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- aplaza la ejecucion de una linea hasta que se haya ejecutado todo el codigo y luego ejecuta una linea de codigo. -->
+        <script src="js/main.js" defer></script>
+    </body>
+</html>

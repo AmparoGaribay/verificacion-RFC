@@ -1,0 +1,33 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+
+}
+
+.tituloRFc{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    font-weight: bolder;
+}
+
+.campo-texto{
+    display: flex;
+    width: auto;
+    flex-wrap: nowrap;
+    margin: 25px;
+}
+
+.buttonSEnd{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    margin: 15px;
+}
